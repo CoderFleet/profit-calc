@@ -38,10 +38,12 @@
     </div>
     <div class="mb-3">
       <label for="pieceRate">Cost Of 1 Piece (₹)</label>
-      <select class="custom-select" v-model="pieceRate">
-            <option selected value="">Select Price Of Piece</option>
-            <option value="1.01">₹1.01</option>
-          </select>
+      <input
+        type="number"
+        class="form-control"
+        v-model="pieceRate"
+        placeholder="Enter No Of Units Consumed..."
+      />
     </div>
     <div class="mb-3">
       <label for="units">Electricity (Units)</label>

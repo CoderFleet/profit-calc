@@ -9,7 +9,10 @@ export default {
     name: 'Profit',
     props: {
         profit: Number,
-        weight : Number,
+        weight : {
+          type : Number,
+          default : 0
+        },
     }
 }
 </script>

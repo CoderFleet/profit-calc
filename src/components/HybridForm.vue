@@ -28,12 +28,6 @@
               class="form-control"
               v-model="q1"
             />
-            <label for="shotNo">Weight</label>
-            <input
-              type="number"
-              class="form-control"
-              v-model="w1"
-            />
             <label for="shotNo">Rate</label>
             <input
               type="number"
@@ -49,12 +43,6 @@
               type="number"
               class="form-control"
               v-model="q2"
-            />
-            <label for="shotNo">Weight</label>
-            <input
-              type="number"
-              class="form-control"
-              v-model="w2"
             />
             <label for="shotNo">Rate</label>
             <input
@@ -72,12 +60,6 @@
               class="form-control"
               v-model="q3"
             />
-            <label for="shotNo">Weight</label>
-            <input
-              type="number"
-              class="form-control"
-              v-model="w3"
-            />
             <label for="shotNo">Rate</label>
             <input
               type="number"
@@ -94,12 +76,6 @@
               class="form-control"
               v-model="q4"
             />
-            <label for="shotNo">Weight</label>
-            <input
-              type="number"
-              class="form-control"
-              v-model="w4"
-            />
             <label for="shotNo">Rate</label>
             <input
               type="number"
@@ -115,12 +91,6 @@
               type="number"
               class="form-control"
               v-model="q5"
-            />
-            <label for="shotNo">Weight</label>
-            <input
-              type="number"
-              class="form-control"
-              v-model="w5"
             />
             <label for="shotNo">Rate</label>
             <input
@@ -208,19 +178,14 @@ export default {
       runnerWeight : 0,
       shotNo : 0,
       q1 : 0,
-      w1 : 0,
       r1 : 0,
       q2 : 0,
-      w2 : 0,
       r2 : 0,
       q3 : 0,
-      w3 : 0,
       r3 : 0,
       q4 : 0,
-      w4 : 0,
       r4 : 0,
       q5 : 0,
-      w5 : 0,
       r5 : 0,
       shotWeight : 0,
       units : 0,
@@ -237,19 +202,14 @@ export default {
         shotNo : this.shotNo,
         q1 : this.q1,
         r1 : this.r1,
-        w1 : this.w1,
         q2 : this.q2,
         r2 : this.r2,
-        w2 : this.w2,
         q3 : this.q3,
         r3 : this.r3,
-        w3 : this.w3,
         q4 : this.q4,
         r4 : this.r4,
-        w4 : this.w4,
         q5 : this.q5,
         r5 : this.r5,
-        w5 : this.w5,
         shotWeight : this.shotWeight,
         units : this.units,
         danaRate : this.danaRate,
